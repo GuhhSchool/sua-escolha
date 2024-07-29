@@ -225,7 +225,7 @@ async function finish() {
     await delay(1000);
     buttonYesElement.style.display = 'none';
     buttonNoElement.style.display = 'none';
-    resultTextElement.textContent = '🎉 Viva! Você disse Sim!!! 🥳';
+    resultTextElement.textContent = '🎉 Viva! Você disse sim!!! 🥳';
     resultTextElement.style.display = 'flex';
 
     await delay(3000);
