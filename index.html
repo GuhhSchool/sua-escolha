@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+<!-- Cabeçalho -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,48 @@
     <title>Sua Escolha</title>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./question.svg">
 </head>
+<!-- Conteúdo -->
 <body>
+    <!-- Caixa -->
     <section class="section__main">
+        <!-- Background 1 -->
         <div class="div__background-1">
+            <!-- Título -->
             <h1 class="h1__main--title">Sua Escolha</h1>
             <hr>
-            <p class="p__main--question">Você aceita um bolo de chocolate?</p>
+            <!-- Descrição -->
+            <p class="p__main--title">Qual pergunta você gostaria que tivesse?</p>
+            <p class="p__main--question"></p>
         </div>
 
+        <!-- Background 2 -->
         <div class="div__background-2">
+            <!-- Itens iniciais -->
+            <input class="input__main" placeholder="Digite a pergunta">
+            <p class="p__main--result"></p>
+            <!-- Cores -->
+            <div class="div__main--colors">
+                <span class="circle circle-1 circle-activated"></span>
+                <span class="circle circle-2"></span>
+                <span class="circle circle-3"></span>
+                <span class="circle circle-4"></span>
+            </div>
+            <!-- Botões -->
+            <button class="button__main--start">➤</button>
+            <div class="div__main--buttons">
+                <button class="button__main--view button__main--interactions">Responder</button>
+                <button class="button__main--share button__main--interactions">Compartilhar</button>
+            </div>
+            <!-- Botões finais -->
             <button class="button__main button__main--yes">Sim</button>
             <button class="button__main button__main--no">Não</button>
+            <!-- Botões para reiniciar -->
+            <div class="div__main--end">
+                <button class="button__main--restart">Decidir novamente</button>
+                <button class="button__main--create">Criar uma pergunta</button>
+            </div>
         </div>
     </section>
 
